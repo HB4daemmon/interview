@@ -143,7 +143,7 @@ def write_readme(notebooks_dir: Path) -> None:
         "- 建议在项目根目录启动，然后按编号顺序打开学习\n\n",
         "说明：\n",
         "- 部分 Notebook 会在项目根目录创建 `./_nb_artifacts/` 存放示例产生的临时文件（模块/文件/日志等）\n",
-        "- 通讯/数据库/中间件篇章含可选依赖：`websockets`、MySQL 驱动（`mysql-connector-python` 或 `pymysql`）、`pika`\n\n",
+        "- 部分篇章含可选依赖：`websockets`、MySQL 驱动（`mysql-connector-python` 或 `pymysql`）、`pika`、`pymongo`、`flask`、`fastapi`、`numpy`、`pandas`、`scikit-learn`、`torch`\n\n",
         "顺序：\n",
     ]
     for name in items:
